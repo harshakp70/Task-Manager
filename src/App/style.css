@@ -1,0 +1,77 @@
+body{
+    background-color:rgb(255, 120, 196);
+}
+.TaskManager{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin: 20px;
+}
+.Task{
+    width: 400px;
+   background-color: blueviolet;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}.Tasks.completed{
+    opacity:0.5 ;
+}
+button{
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+.edit{
+    background-color:transparent;
+}
+.save{
+    background-color: rgb(189, 43, 157);
+}
+.delete{
+    background-color: rgb(113, 2, 83);
+}
+.add-task-container button{
+    background-color: rgb(126, 3, 137);
+}
+input{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 8px 12px;
+
+}
+.add-task-container{
+    width: 440px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px;
+
+
+}
+.add-task-container input{
+    flex-grow: 1;
+}
+.Tasks{
+    background-color: rgb(217, 66, 159);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Tasks.span.content{
+    flex-grow: 1;
+    color: white;
+
+}
+.Tasks input.editInput{
+    flex-grow: 1;
+}
